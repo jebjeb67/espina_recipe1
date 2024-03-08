@@ -1,0 +1,174 @@
+
+.container{
+width: 100000px;
+height: 140px;
+margin-top: -30px;
+margin-right: 1000px;
+margin-left: -1000px;
+z-index: 1;
+position: absolute;
+animation-duration: 1100ms;
+animation-name: contain;
+}
+@keyframes contain{
+from{
+    margin-bottom: 100%;
+}
+to{
+    margin-bottom: 0%;
+}
+}
+.glass{
+    background: linear-gradient(135deg, rgba(255, 0, 0, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 0px 0px 0 rgba(255, 0, 0, 0.201);
+}
+.heading{
+margin-top: 10rem;
+}
+.service {
+    width: 100vw;
+    text-align: center;
+}
+
+.service .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0;
+    margin-top: 5rem;
+}
+
+/* service images  */
+.service .row .images img {
+    width: 25vw;
+    margin: 4rem;
+    border-radius: 2rem;
+}
+
+/* service heading & text  */
+.service .row .content {
+    text-align: left;
+    border-radius: 1rem;
+}
+
+.service .row .content h2 {
+    font-size: 3rem;
+    color: var(--green);
+}
+.service h1{
+    font-size: 3rem;
+}
+
+.service .row .content p {
+    font-size: 1.5rem;
+    color: var(--black);
+    padding: 1rem -90rem;
+}
+.btn {
+    outline: none;
+    border: none;
+    border-radius: 5rem;
+    background-color: var(--green);
+    color: red;
+    cursor: pointer;
+    height: 3.5rem;
+    width: 15rem;
+    font-size: 1.7rem;
+    box-shadow: 0 .2rem .5rem rgba(0, 0, 0, .3);
+    transition: all .55s ease;
+}
+.nextbtn{
+    outline: none;
+    border: none;
+    border-radius: 5rem;
+    background-color: var(--green);
+    color: red;
+    cursor: pointer;
+    height: 3.5rem;
+    width: 15rem;
+    font-size: 1.7rem;
+    box-shadow: 0 .2rem .5rem rgba(0, 0, 0, .3);
+    margin: 5rem;
+    transition: all .55s ease;
+}
+
+.btn:hover {
+    letter-spacing: .1rem;
+    opacity: .8;
+    color: white;
+    background-color: red;
+}
+.nextbtn:hover {
+    letter-spacing: .1rem;
+    opacity: .8;
+    color: black;
+}
+section{
+    animation-duration: 1300ms;
+    animation-name: slidein;
+    
+}
+@keyframes slidein{
+from{
+    margin-top: 100%;
+}
+to{
+    margin-top: 0;
+}
+}
+
+/* Kare-Kare */
+.headings{
+    position: fixed;
+    right: 80rem;
+    top: 0;
+    z-index: 1000;
+    width: 1%;
+    display: flex ;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 9%;
+    background: transparent;
+    margin-top: 10rem;
+}
+.btn1{
+    outline: none;
+    border: none;
+    border-radius: 20rem;
+    background-color: var(--green);
+    color: red;
+    cursor: pointer;
+    height: 3.5rem;
+    width: 3.5rem;
+    font-size: 1.7rem;
+    transition: all .55s ease;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 10px;
+    
+
+}
+.btn1:hover{
+    outline: none;
+    border: none;
+    border-radius: 20rem;
+    background-color: var(--green);
+    color: red;
+    cursor: pointer;
+    height: 3.5rem;
+    width: 3.5rem;
+    font-size: 1.7rem;
+    transition: all .55s ease;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 10px;
+    letter-spacing: 90px;
+    
+}
+
